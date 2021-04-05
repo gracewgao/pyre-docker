@@ -32,6 +32,12 @@ Before starting, ensure that [Docker](https://docs.docker.com/get-docker/) is in
 
 4. Inside the container, run any pyre-check command now with `pyre`!
 
+   *Note: When initializing pyre-check with `pyre init`, you may have to enter the following paths for the  binary and typeshed:*
+   ```bash
+   ƛ No `pyre.bin` found, enter the path manually: /home/opam/pyre-check/source/_build/default/main.exe
+   ƛ Unable to locate typeshed, please enter its root: /home/opam/pyre-check/stubs/typeshed/typeshed-master
+   ```
+
 ### Contributing
 
 Feel free to report any bugs or installation errors that you find!
